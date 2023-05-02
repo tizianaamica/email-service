@@ -1,5 +1,6 @@
 package com.service.email.model;
 
+import com.service.email.response.MessageResponse;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

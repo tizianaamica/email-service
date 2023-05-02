@@ -10,7 +10,7 @@ public class EmailServiceImpl implements EmailService {
 
     @Override
     public Email sendEmail(Email email) {
-
-        return null;
+        System.out.println("message: " + email.getMessage());
+        return email;
     }
 }
